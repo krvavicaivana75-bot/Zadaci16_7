@@ -12,7 +12,7 @@ public class Zadatak3 {
         for(int i=0;i<vel_matrice;i++){
             System.out.print("|");
             for(int j=0;j<vel_matrice;j++){
-                System.out.print("x");
+                System.out.print("X"+(i+1)+(j+1)+"  ");
                             }
             System.out.println("|");
         }
